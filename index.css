@@ -1,5 +1,7 @@
 body{
     background-color: rgb(4, 4, 54);
+    width: 50%;
+    height: 75%;
 }
 a{
     text-decoration: none;
@@ -11,17 +13,16 @@ a{
 }
 .details{
     color: white;
-    padding: 5%;
-   
-    
     
 }
-.pht{
 
-float: right;
+.image{
+    float: right;
 }
-.info{
+.des{
+    float: left;
+}
+footer{
+    word-spacing: 1em;
     color: white;
-    word-spacing: 4em;
-    
 }
