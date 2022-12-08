@@ -81,6 +81,7 @@ label{
     box-sizing: border-box;
     cursor: pointer;
     transition: 0.4s;
+    
 }
 .service:hover{
     background: rgb(4, 4, 54);
