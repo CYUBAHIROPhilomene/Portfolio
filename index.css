@@ -1,15 +1,15 @@
 body{
     background-color: rgb(4, 4, 54);
-    width: 50%;
-    height: 75%;
+    
 }
 a{
     text-decoration: none;
-    background-color: rgb(4, 4, 54) ;
+    
     color: white;
     display: inline;
     text-align: center;
     padding: 14px 25px;
+    padding-bottom: 5px;
 }
 .details{
     color: white;
@@ -22,7 +22,147 @@ a{
 .des{
     float: left;
 }
+.des p{
+    color:white;
+    letter-spacing: 0px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
 footer{
     word-spacing: 1em;
     color: white;
 }
+input[type=text],select,textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    resize: vertical;
+    
+}
+input[type=submit]{
+    background-color: beige;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+label{
+    color: beige;
+}
+.services{
+    background: #f1f1f1;
+    text-align: center;
+}
+.services h1{
+    display: inline-block;
+    text-transform: uppercase;
+    border-bottom: 4px solid #3498db;
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+}
+.content{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+.service{
+    display: inline-block;
+    width: calc(100%/3);
+    margin: 0 -2px;
+    padding: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.service:hover{
+    background: rgb(4, 4, 54);
+}
+.service h3{
+font-size: 18px;
+text-transform: uppercase;
+font-weight: 500;
+margin: 0;
+}
+.service p{
+    color: gray;
+    font-size: 15px;
+    font-weight: 500;
+}
+@media screen and (max-width =500px) {
+    .service{
+        width: 100%;
+    }
+    
+}
+.about{
+    width: 100%;
+    padding: 78px 0px;
+  
+}
+.about img{
+    height: auto;
+    width: 420px;
+}
+.abouttxt{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.abouttxt h1{
+    color: white;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.abouttxt h5{
+    color: white;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+    
+}
+span{
+    color: black;
+}
+.abouttxt p{
+    color:#fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+button{
+    background: black;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
