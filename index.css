@@ -1,5 +1,7 @@
 body{
     background-color: rgb(4, 4, 54);
+
+    text-align: center;
     
 }
 a{
@@ -13,11 +15,13 @@ a{
 }
 .details{
     color: white;
+    margin: auto;
     
 }
 
 .image{
     float: right;
+    
 }
 .des{
     float: left;
@@ -54,6 +58,7 @@ input[type=submit]{
 }
 label{
     color: beige;
+    float: left;
 }
 .services{
     background: #f1f1f1;
@@ -155,6 +160,7 @@ button{
     font-weight: bold;
     padding: 13px 30px;
     border-radius: 30px;
+   
 }
 
 
