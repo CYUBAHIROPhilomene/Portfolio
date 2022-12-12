@@ -2,6 +2,10 @@ body{
     background-color: rgb(4, 4, 54);
 
     text-align: center;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
     
 }
 a{
@@ -33,10 +37,7 @@ a{
     font-size: 18px;
     margin-bottom: 45px;
 }
-footer{
-    word-spacing: 1em;
-    color: white;
-}
+
 input[type=text],select,textarea{
     width: 100%;
     padding: 12px;
@@ -61,8 +62,10 @@ label{
     float: left;
 }
 .services{
-    background: #f1f1f1;
+    background: white;
     text-align: center;
+    width: 100%;
+    padding: 30px 0px;
 }
 .services h1{
     display: inline-block;
@@ -73,37 +76,50 @@ label{
     margin-top: 40px;
 }
 .content{
-    max-width: 1200px;
-    margin: auto;
-    overflow: hidden;
-    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 450px;
 }
 .service{
-    display: inline-block;
-    width: calc(100%/2);
-    margin: 0 -2px;
-    padding: 20px;
-    box-sizing: border-box;
-    cursor: pointer;
-    transition: 0.4s;
+    height: 365px;
+    width: 335px;
+    padding: 5px 15px;
+    background: white;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
     
 }
+.service i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+}
 .service:hover{
-    background: rgb(4, 4, 54);
+    background:#3498db;
 }
 .service h3{
-font-size: 18px;
+font-size: 23px;
+color: black;
 text-transform: uppercase;
-font-weight: 500;
-margin: 0;
+margin-bottom: 15px;
 }
 .service p{
     color: gray;
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 25px;
 }
 @media screen and (max-width =500px) {
     .service{
+        width: 100%;
+    }
+    .about
+    {
         width: 100%;
     }
     
@@ -162,6 +178,7 @@ button{
     border-radius: 30px;
    
 }
+
 
 
 
